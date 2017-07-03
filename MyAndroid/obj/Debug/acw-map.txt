@@ -1,0 +1,4 @@
+MyAndroid.MainActivity, MyAndroid;md50487cc532899d85e2e22d11e567fa7b7.MainActivity
+MyAndroid.MainActivity, MyAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50487cc532899d85e2e22d11e567fa7b7.MainActivity
+MyAndroid.MainActivity;md50487cc532899d85e2e22d11e567fa7b7.MainActivity
+myandroid.MainActivity;md50487cc532899d85e2e22d11e567fa7b7.MainActivity

@@ -1,0 +1,53 @@
+﻿[
+    {
+        "race_name": "Human",
+        "description": "<b><i>Ambitious, driven, pragmatic—a race of heroes, and also a race of villains</i></b>",
+        "height": "168-188 cm",
+        "weight": "61-100 kg",
+        "ability_score_bonus": {
+            "description": "",
+            "ability_score_incr": {
+                "any": 2
+            }
+        },
+        "size": "Medium",
+        "speed": "11 meters",
+        "vision": "Normal",
+        "languages": [
+            "Common"
+        ],
+        "traits": [ "extra_language", "bonus_at_will", "bonus_feat", "bonus_skill", "human_defense_bonus" ]
+    },
+    {
+        "race_name": "Elf",
+        "description": "<b><i>Quick, wary archers who freely roam the forests and wilds</i></b>",
+        "height": "162-183 cm",
+        "weight": "59-77 kg",
+        "ability_score_bonus": {
+            "description": "+2 Dexterity, +2 Wisdom",
+            "ability_score_incr": {
+                "dexterity": 2,
+                "wisdom": 2
+            }
+        },
+        "size": "Medium",
+        "speed": "13 meters",
+        "vision": "Low-light",
+        "languages": [
+            "Common",
+            "Elven"
+        ],
+        "skill_bonus": {
+            "description": "+2 Nature, +2 Perception",
+            "skill_bonus_incr": {
+                "nature": 2,
+                "perception": 2
+            }
+        },
+        "racial_power": {
+            "name": "elven_accuracy",
+            "description": "You can use elven accuracy as an encounter power."
+        },
+        "traits": [ "elven_weapon_proficiency", "fey_origin", "group_awareness", "wild_step" ]
+    }
+]

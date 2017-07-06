@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
 using Android.OS;
 using Android.Widget;
 using Java.Util;
@@ -6,12 +7,11 @@ using MyAndroid.RaceData;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
+using MyAndroid.Activities;
 
 namespace MyAndroid {
-    [Activity(Label = "MyAndroid", MainLauncher = true, Icon = "@drawable/icon", Theme = "@android:style/Theme.Holo")]
+    [Activity(Label = "My D&D Helper", MainLauncher = true, Icon = "@drawable/icon", Theme = "@android:style/Theme.Holo")]
     public class MainActivity : Activity {
-        public const string TAG = "ExampleQuizApp";
-        const string RACES_JSON_FILE = "races.json";
         public MainActivity() {
          
         }
@@ -21,19 +21,16 @@ namespace MyAndroid {
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            string json = JsonUtils.LoadJsonFile(this, RACES_JSON_FILE);
-            var races = JsonConvert.DeserializeObject<List<Race>>(json);
 
-            var raceNames = races.Select(race => race.RaceName).ToList();
-
-            var raceNamesAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerItem, raceNames);
-
-            raceNamesAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
-            var raceNamesSpinner = FindViewById<Spinner>(Resource.Id.RacesDropDown);
-            raceNamesSpinner.Adapter = raceNamesAdapter;
+            var button = FindViewById<Button>(Resource.Id.ButtonCreateNewCharacter);
+            button.Click += ButtonCreateNewCharacterOnClick;
 
 
+        }
 
+        private void ButtonCreateNewCharacterOnClick(object sender, EventArgs eventArgs)
+        {
+            StartActivity(typeof(CharacterCreationActivity));
         }
     }
 }

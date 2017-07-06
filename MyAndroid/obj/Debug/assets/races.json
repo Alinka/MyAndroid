@@ -1,53 +1,246 @@
 ﻿[
-    {
-        "race_name": "Human",
-        "description": "<b><i>Ambitious, driven, pragmatic—a race of heroes, and also a race of villains</i></b>",
-        "height": "168-188 cm",
-        "weight": "61-100 kg",
-        "ability_score_bonus": {
-            "description": "",
-            "ability_score_incr": {
-                "any": 2
-            }
-        },
-        "size": "Medium",
-        "speed": "11 meters",
-        "vision": "Normal",
-        "languages": [
-            "Common"
-        ],
-        "traits": [ "extra_language", "bonus_at_will", "bonus_feat", "bonus_skill", "human_defense_bonus" ]
+  {
+    "race_name": "Dragonborn",
+    "description": "<b><i>Proud, honorable warriors, born from the blood of an ancient dragon god</i></b>",
+    "height": "188-203 cm",
+    "weight": "100-145 kg",
+    "ability_score_bonus": {
+      "description": "+2 Strength, +2 Charisma",
+      "ability_score_incr": {
+        "strength": 2,
+        "charisma": 2
+      }
     },
-    {
-        "race_name": "Elf",
-        "description": "<b><i>Quick, wary archers who freely roam the forests and wilds</i></b>",
-        "height": "162-183 cm",
-        "weight": "59-77 kg",
-        "ability_score_bonus": {
-            "description": "+2 Dexterity, +2 Wisdom",
-            "ability_score_incr": {
-                "dexterity": 2,
-                "wisdom": 2
-            }
-        },
-        "size": "Medium",
-        "speed": "13 meters",
-        "vision": "Low-light",
-        "languages": [
-            "Common",
-            "Elven"
-        ],
-        "skill_bonus": {
-            "description": "+2 Nature, +2 Perception",
-            "skill_bonus_incr": {
-                "nature": 2,
-                "perception": 2
-            }
-        },
-        "racial_power": {
-            "name": "elven_accuracy",
-            "description": "You can use elven accuracy as an encounter power."
-        },
-        "traits": [ "elven_weapon_proficiency", "fey_origin", "group_awareness", "wild_step" ]
-    }
+    "size": "Medium",
+    "speed": "11 meters",
+    "vision": "Normal",
+    "languages": [
+      "Common",
+      "Draconic"
+    ],
+    "skill_bonus": {
+      "description": "+2 History, +2 Intimidate",
+      "skill_bonus_incr": {
+        "history": 2,
+        "intimidate": 2
+      }
+    },
+    "racial_power": {
+      "name": "dragon_breath",
+      "description": "You can use dragon breath as an encounter power."
+
+    },
+    "traits": [ "dragonborn_fury", "draconic_heritage" ]
+  },
+  {
+    "race_name": "Dwarf",
+    "description": "<b><i>Masters of stone and iron, dauntless and unyielding in the face of adversity</i></b>",
+    "height": "130-145 cm",
+    "weight": "73-100 kg",
+    "ability_score_bonus": {
+      "description": "+2 Constitution, +2 Wisdom",
+      "ability_score_incr": {
+        "constitution": 2,
+        "wisdom": 2
+      }
+    },
+    "size": "Medium",
+    "speed": "9 meters",
+    "vision": "Low-light",
+    "languages": [
+      "Common",
+      "Dwarven"
+    ],
+    "skill_bonus": {
+      "description": "+2 Dungeoneering, +2 Endurance",
+      "skill_bonus_incr": {
+        "dungeoneering": 2,
+        "endurance": 2
+      }
+    },
+    "racial_power": {
+      "name": "dwarven_resilience",
+      "description": "You can use your second wind as a minor action instead of a standard action"
+
+    },
+    "traits": [ "cast_iron_stomach", "dwarven_weapon_proficiency", "encumbered_speed", "stand_your_ground" ]
+  },
+  {
+    "race_name": "Eladrin",
+    "description": "<b><i>Graceful warriors and wizards at home in the eldritch twilight of the Feywild</i></b>",
+    "height": "165-185 cm",
+    "weight": "59-82 kg",
+    "ability_score_bonus": {
+      "description": "+2 Dexterity, +2 Intelligence",
+      "ability_score_incr": {
+        "dexterity": 2,
+        "intelligence": 2
+      }
+    },
+    "size": "Medium",
+    "speed": "11 meters",
+    "vision": "Low-light",
+    "languages": [
+      "Common",
+      "Elven"
+    ],
+    "skill_bonus": {
+      "description": "+2 Arcana, +2 History",
+      "skill_bonus_incr": {
+        "arcana": 2,
+        "history": 2
+      }
+    },
+    "racial_power": {
+      "name": "fey_step",
+      "description": "You can use fey step as an encounter power."
+
+    },
+    "traits": [ "eladrin_education", "eladrin_weapon_proficiency", "eladrin_will", "fey_origin" ]
+  },
+  {
+    "race_name": "Elf",
+    "description": "<b><i>Quick, wary archers who freely roam the forests and wilds</i></b>",
+    "height": "162-183 cm",
+    "weight": "59-77 kg",
+    "ability_score_bonus": {
+      "description": "+2 Dexterity, +2 Wisdom",
+      "ability_score_incr": {
+        "dexterity": 2,
+        "wisdom": 2
+      }
+    },
+    "size": "Medium",
+    "speed": "13 meters",
+    "vision": "Low-light",
+    "languages": [
+      "Common",
+      "Elven"
+    ],
+    "skill_bonus": {
+      "description": "+2 Nature, +2 Perception",
+      "skill_bonus_incr": {
+        "nature": 2,
+        "perception": 2
+      }
+    },
+    "racial_power": {
+      "name": "elven_accuracy",
+      "description": "You can use elven accuracy as an encounter power."
+    },
+    "traits": [ "elven_weapon_proficiency", "fey_origin", "group_awareness", "wild_step" ]
+  },
+  {
+    "race_name": "HalfElf",
+    "description": "<b><i>Born heroes and leaders who combine the best features of humans and elves</i></b>",
+    "height": "165-188 cm",
+    "weight": "59-86 kg",
+    "ability_score_bonus": {
+      "description": "+2 Constitution, +2 Charisma",
+      "ability_score_incr": {
+        "constitution": 2,
+        "charisma": 2
+      }
+    },
+    "size": "Medium",
+    "speed": "11 meters",
+    "vision": "Low-light",
+    "languages": [
+      "Common",
+      "Elven"
+    ],
+    "skill_bonus": {
+      "description": "+2 Diplomacy, +2 Insight",
+      "skill_bonus_incr": {
+        "diplomacy": 2,
+        "insight": 2
+      }
+    },
+    "racial_power": {
+      "name": "",
+      "description": ""
+    },
+    "traits": [ "extra_language", "dilettante", "dual_heritage", "group_diplomacy" ]
+  },
+  {
+    "race_name": "Halfling",
+    "description": "<b><i>Quick and resourceful wanderers, small in stature but great in courage</i></b>",
+    "height": "117-127 cm",
+    "weight": "34-39 kg",
+    "ability_score_bonus": {
+      "description": "+2 Dexterity, +2 Charisma",
+      "ability_score_incr": {
+        "dexterity": 2,
+        "charisma": 2
+      }
+    },
+    "size": "Small",
+    "speed": "11 meters",
+    "vision": "Normal",
+    "languages": [
+      "Common"
+    ],
+    "skill_bonus": {
+      "description": "+2 Acrobatics, +2 Thievery",
+      "skill_bonus_incr": {
+        "acrobatics": 2,
+        "thievery": 2
+      }
+    },
+    "racial_power": {
+      "name": "second_chance",
+      "description": "You can use second chance as an encounter power."
+    },
+    "traits": [ "extra_language", "bold", "nimble_reaction" ]
+  },
+  {
+    "race_name": "Human",
+    "description": "<b><i>Ambitious, driven, pragmatic—a race of heroes, and also a race of villains</i></b>",
+    "height": "168-188 cm",
+    "weight": "61-100 kg",
+    "ability_score_bonus": {
+      "description": "",
+      "ability_score_incr": {
+        "any": 2
+      }
+    },
+    "size": "Medium",
+    "speed": "11 meters",
+    "vision": "Normal",
+    "languages": [
+      "Common"
+    ],
+    "traits": [ "extra_language", "bonus_at_will", "bonus_feat", "bonus_skill", "human_defense_bonus" ]
+  },
+  {
+    "race_name": "Tiefling", 
+    "description": "<b><i>Heirs of a shattered empire who live in the shadows and do not fear the dark</i></b>",
+    "height": "168-188 cm",
+    "weight": "64-104 kg",
+    "ability_score_bonus": {
+      "description": "+2 Intelligence, +2 Charisma",
+      "ability_score_incr": {
+        "intelligence": 2,
+        "charisma": 2
+      }
+    },
+    "size": "Medium",
+    "speed": "11 meters",
+    "vision": "Low-light",
+    "languages": [
+      "Common"
+    ],
+    "skill_bonus": {
+      "description": "+2 Bluff, +2 Stealth",
+      "skill_bonus_incr": {
+        "bluff": 2,
+        "stealth": 2
+      }
+    },
+    "racial_power": {
+      "name": "infernal_wrath",
+      "description": "You can use infernal wrath as an encounter power."
+    },
+    "traits": [ "extra_language", "bloodhunt", "fire_resistance" ]
+  }
 ]

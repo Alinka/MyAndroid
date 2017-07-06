@@ -79,7 +79,16 @@ namespace MyAndroid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int dnd_logo = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int spinner_bg = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int splash_screen = 2130837507;
 			
 			static Drawable()
 			{
@@ -94,11 +103,17 @@ namespace MyAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int RacesDropDown = 2131099649;
+			// aapt resource value: 0x7f070002
+			public const int ButtonCreateNewCharacter = 2131165186;
 			
-			// aapt resource value: 0x7f060000
-			public const int scrollView1 = 2131099648;
+			// aapt resource value: 0x7f070003
+			public const int ButtonLoadCharacter = 2131165187;
+			
+			// aapt resource value: 0x7f070000
+			public const int RacesDropDown = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int mainLinearLayout = 2131165185;
 			
 			static Id()
 			{
@@ -114,7 +129,10 @@ namespace MyAndroid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int CharacterCreation = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -183,6 +201,25 @@ namespace MyAndroid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int MyTheme_Splash = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int spinner_style = 2131099649;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

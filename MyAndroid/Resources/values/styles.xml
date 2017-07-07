@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <style name="MyTheme.Splash" parent ="android:Theme.Holo.NoActionBar.Fullscreen">
-        <item name="android:background">@drawable/splash_screen</item>
-    </style>
     <style name="spinner_style" >
         <item name="android:background">@drawable/spinner_bg</item>
         <item name="android:layout_marginLeft">10dp</item>

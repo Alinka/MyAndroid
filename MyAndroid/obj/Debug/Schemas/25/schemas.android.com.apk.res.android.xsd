@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>2017-07-06 14:50:02</xs:documentation>
+    <xs:documentation>2017-07-07 11:57:37</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -17541,7 +17541,17 @@
             <xs:enumeration value="@id/ButtonCreateNewCharacter" />
             <xs:enumeration value="@id/ButtonLoadCharacter" />
             <xs:enumeration value="@id/mainLinearLayout" />
-            <xs:enumeration value="@id/RacesDropDown" />
+            <xs:enumeration value="@id/RaceAbilityScoreBonus" />
+            <xs:enumeration value="@id/RaceDescription" />
+            <xs:enumeration value="@id/RaceHeight" />
+            <xs:enumeration value="@id/RaceLanguages" />
+            <xs:enumeration value="@id/RacePower" />
+            <xs:enumeration value="@id/RaceSize" />
+            <xs:enumeration value="@id/RaceSkillBonus" />
+            <xs:enumeration value="@id/RaceSpeed" />
+            <xs:enumeration value="@id/RaceTraits" />
+            <xs:enumeration value="@id/RaceWeight" />
+            <xs:enumeration value="@id/RaceVision" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -32927,7 +32937,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@style/MyTheme_Splash" />
             <xs:enumeration value="@style/spinner_style" />
             <xs:enumeration value="@style/XamarinDesignerCustomAppliedTheme" />
             <xs:enumeration value="@android:style/Animation" />
@@ -40418,7 +40427,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@style/MyTheme_Splash" />
             <xs:enumeration value="@style/spinner_style" />
             <xs:enumeration value="@style/XamarinDesignerCustomAppliedTheme" />
             <xs:enumeration value="@android:style/Animation" />

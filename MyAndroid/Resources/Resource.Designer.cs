@@ -87,9 +87,6 @@ namespace MyAndroid
 			// aapt resource value: 0x7f020002
 			public const int spinner_bg = 2130837506;
 			
-			// aapt resource value: 0x7f020003
-			public const int splash_screen = 2130837507;
-			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -103,17 +100,50 @@ namespace MyAndroid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f07000d
+			public const int ButtonCreateNewCharacter = 2131165197;
+			
+			// aapt resource value: 0x7f07000e
+			public const int ButtonLoadCharacter = 2131165198;
+			
+			// aapt resource value: 0x7f070004
+			public const int RaceAbilityScoreBonus = 2131165188;
+			
+			// aapt resource value: 0x7f070001
+			public const int RaceDescription = 2131165185;
+			
 			// aapt resource value: 0x7f070002
-			public const int ButtonCreateNewCharacter = 2131165186;
+			public const int RaceHeight = 2131165186;
+			
+			// aapt resource value: 0x7f070008
+			public const int RaceLanguages = 2131165192;
+			
+			// aapt resource value: 0x7f07000a
+			public const int RacePower = 2131165194;
+			
+			// aapt resource value: 0x7f070005
+			public const int RaceSize = 2131165189;
+			
+			// aapt resource value: 0x7f070009
+			public const int RaceSkillBonus = 2131165193;
+			
+			// aapt resource value: 0x7f070006
+			public const int RaceSpeed = 2131165190;
+			
+			// aapt resource value: 0x7f07000b
+			public const int RaceTraits = 2131165195;
+			
+			// aapt resource value: 0x7f070007
+			public const int RaceVision = 2131165191;
 			
 			// aapt resource value: 0x7f070003
-			public const int ButtonLoadCharacter = 2131165187;
+			public const int RaceWeight = 2131165187;
 			
 			// aapt resource value: 0x7f070000
 			public const int RacesDropDown = 2131165184;
 			
-			// aapt resource value: 0x7f070001
-			public const int mainLinearLayout = 2131165185;
+			// aapt resource value: 0x7f07000c
+			public const int mainLinearLayout = 2131165196;
 			
 			static Id()
 			{
@@ -209,10 +239,7 @@ namespace MyAndroid
 		{
 			
 			// aapt resource value: 0x7f060000
-			public const int MyTheme_Splash = 2131099648;
-			
-			// aapt resource value: 0x7f060001
-			public const int spinner_style = 2131099649;
+			public const int spinner_style = 2131099648;
 			
 			static Style()
 			{

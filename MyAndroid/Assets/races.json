@@ -1,15 +1,12 @@
 ﻿[
   {
     "race_name": "Dragonborn",
-    "description": "<b><i>Proud, honorable warriors, born from the blood of an ancient dragon god</i></b>",
+    "description": "Proud, honorable warriors, born from the blood of an ancient dragon god",
     "height": "188-203 cm",
     "weight": "100-145 kg",
     "ability_score_bonus": {
       "description": "+2 Strength, +2 Charisma",
-      "ability_score_incr": {
-        "strength": 2,
-        "charisma": 2
-      }
+      "ability_score_incr": [2,0,0,0,0,2]
     },
     "size": "Medium",
     "speed": "11 meters",
@@ -20,29 +17,22 @@
     ],
     "skill_bonus": {
       "description": "+2 History, +2 Intimidate",
-      "skill_bonus_incr": {
-        "history": 2,
-        "intimidate": 2
-      }
+      "skill_bonus_incr": [0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0]
     },
     "racial_power": {
       "name": "dragon_breath",
       "description": "You can use dragon breath as an encounter power."
-
     },
     "traits": [ "dragonborn_fury", "draconic_heritage" ]
   },
   {
     "race_name": "Dwarf",
-    "description": "<b><i>Masters of stone and iron, dauntless and unyielding in the face of adversity</i></b>",
+    "description": "Masters of stone and iron, dauntless and unyielding in the face of adversity",
     "height": "130-145 cm",
     "weight": "73-100 kg",
     "ability_score_bonus": {
       "description": "+2 Constitution, +2 Wisdom",
-      "ability_score_incr": {
-        "constitution": 2,
-        "wisdom": 2
-      }
+      "ability_score_incr": [ 0, 2, 0, 0, 2, 0 ]
     },
     "size": "Medium",
     "speed": "9 meters",
@@ -53,10 +43,7 @@
     ],
     "skill_bonus": {
       "description": "+2 Dungeoneering, +2 Endurance",
-      "skill_bonus_incr": {
-        "dungeoneering": 2,
-        "endurance": 2
-      }
+      "skill_bonus_incr": [0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0]
     },
     "racial_power": {
       "name": "dwarven_resilience",
@@ -67,15 +54,12 @@
   },
   {
     "race_name": "Eladrin",
-    "description": "<b><i>Graceful warriors and wizards at home in the eldritch twilight of the Feywild</i></b>",
+    "description": "Graceful warriors and wizards at home in the eldritch twilight of the Feywild",
     "height": "165-185 cm",
     "weight": "59-82 kg",
     "ability_score_bonus": {
       "description": "+2 Dexterity, +2 Intelligence",
-      "ability_score_incr": {
-        "dexterity": 2,
-        "intelligence": 2
-      }
+      "ability_score_incr": [ 0, 0, 2, 2, 0, 0 ]
     },
     "size": "Medium",
     "speed": "11 meters",
@@ -86,10 +70,7 @@
     ],
     "skill_bonus": {
       "description": "+2 Arcana, +2 History",
-      "skill_bonus_incr": {
-        "arcana": 2,
-        "history": 2
-      }
+      "skill_bonus_incr": [ 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0 ]
     },
     "racial_power": {
       "name": "fey_step",
@@ -100,15 +81,12 @@
   },
   {
     "race_name": "Elf",
-    "description": "<b><i>Quick, wary archers who freely roam the forests and wilds</i></b>",
+    "description": "Quick, wary archers who freely roam the forests and wilds",
     "height": "162-183 cm",
     "weight": "59-77 kg",
     "ability_score_bonus": {
       "description": "+2 Dexterity, +2 Wisdom",
-      "ability_score_incr": {
-        "dexterity": 2,
-        "wisdom": 2
-      }
+      "ability_score_incr": [ 0, 0, 2, 0, 2, 0 ]
     },
     "size": "Medium",
     "speed": "13 meters",
@@ -119,10 +97,7 @@
     ],
     "skill_bonus": {
       "description": "+2 Nature, +2 Perception",
-      "skill_bonus_incr": {
-        "nature": 2,
-        "perception": 2
-      }
+      "skill_bonus_incr": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0 ]
     },
     "racial_power": {
       "name": "elven_accuracy",
@@ -132,15 +107,12 @@
   },
   {
     "race_name": "HalfElf",
-    "description": "<b><i>Born heroes and leaders who combine the best features of humans and elves</i></b>",
+    "description": "Born heroes and leaders who combine the best features of humans and elves",
     "height": "165-188 cm",
     "weight": "59-86 kg",
     "ability_score_bonus": {
       "description": "+2 Constitution, +2 Charisma",
-      "ability_score_incr": {
-        "constitution": 2,
-        "charisma": 2
-      }
+      "ability_score_incr": [ 0, 2, 0, 0, 0, 2 ]
     },
     "size": "Medium",
     "speed": "11 meters",
@@ -151,10 +123,7 @@
     ],
     "skill_bonus": {
       "description": "+2 Diplomacy, +2 Insight",
-      "skill_bonus_incr": {
-        "diplomacy": 2,
-        "insight": 2
-      }
+      "skill_bonus_incr": [ 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 ]
     },
     "racial_power": {
       "name": "",
@@ -164,15 +133,12 @@
   },
   {
     "race_name": "Halfling",
-    "description": "<b><i>Quick and resourceful wanderers, small in stature but great in courage</i></b>",
+    "description": "Quick and resourceful wanderers, small in stature but great in courage",
     "height": "117-127 cm",
     "weight": "34-39 kg",
     "ability_score_bonus": {
       "description": "+2 Dexterity, +2 Charisma",
-      "ability_score_incr": {
-        "dexterity": 2,
-        "charisma": 2
-      }
+      "ability_score_incr": [ 0, 0, 2, 0, 0, 2 ]
     },
     "size": "Small",
     "speed": "11 meters",
@@ -182,10 +148,7 @@
     ],
     "skill_bonus": {
       "description": "+2 Acrobatics, +2 Thievery",
-      "skill_bonus_incr": {
-        "acrobatics": 2,
-        "thievery": 2
-      }
+      "skill_bonus_incr": [ 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2 ]
     },
     "racial_power": {
       "name": "second_chance",
@@ -195,14 +158,12 @@
   },
   {
     "race_name": "Human",
-    "description": "<b><i>Ambitious, driven, pragmatic—a race of heroes, and also a race of villains</i></b>",
+    "description": "Ambitious, driven, pragmatic—a race of heroes, and also a race of villains",
     "height": "168-188 cm",
     "weight": "61-100 kg",
     "ability_score_bonus": {
-      "description": "",
-      "ability_score_incr": {
-        "any": 2
-      }
+      "description": "+2 to one ability score of your choice",
+      "ability_score_incr": [ 0, 0, 0, 0, 0, 0 ]
     },
     "size": "Medium",
     "speed": "11 meters",
@@ -213,16 +174,13 @@
     "traits": [ "extra_language", "bonus_at_will", "bonus_feat", "bonus_skill", "human_defense_bonus" ]
   },
   {
-    "race_name": "Tiefling", 
-    "description": "<b><i>Heirs of a shattered empire who live in the shadows and do not fear the dark</i></b>",
+    "race_name": "Tiefling",
+    "description": "Heirs of a shattered empire who live in the shadows and do not fear the dark",
     "height": "168-188 cm",
     "weight": "64-104 kg",
     "ability_score_bonus": {
       "description": "+2 Intelligence, +2 Charisma",
-      "ability_score_incr": {
-        "intelligence": 2,
-        "charisma": 2
-      }
+      "ability_score_incr": [ 0, 0, 0, 2, 0, 2 ]
     },
     "size": "Medium",
     "speed": "11 meters",
@@ -232,10 +190,7 @@
     ],
     "skill_bonus": {
       "description": "+2 Bluff, +2 Stealth",
-      "skill_bonus_incr": {
-        "bluff": 2,
-        "stealth": 2
-      }
+      "skill_bonus_incr": [ 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0 ]
     },
     "racial_power": {
       "name": "infernal_wrath",

@@ -11,4 +11,70 @@
         android:id="@+id/RacesDropDown"
         android:layout_gravity="center"
         style="@style/spinner_style" />
+    <TextView
+        android:text="Race Description"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceDescription" />
+    <TextView
+        android:text="Height: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceHeight" />
+    <TextView
+        android:text="Weight: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceWeight" />
+    <TextView
+        android:text="Ability Score Bonus: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceAbilityScoreBonus" />
+    <TextView
+        android:text="Size: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceSize" />
+    <TextView
+        android:text="Speed: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceSpeed" />
+    <TextView
+        android:text="Vision: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceVision" />
+    <TextView
+        android:text="Languages: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceLanguages" />
+    <TextView
+        android:text="Skill Bonus: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceSkillBonus" />
+    <TextView
+        android:text="RacialPower: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RacePower" />
+    <TextView
+        android:text="Traits: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RaceTraits" />
 </LinearLayout>
